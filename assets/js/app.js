@@ -4,8 +4,9 @@ let ganaMaquina = 0
 let empate = 0
 
 // Comienza el Juego
+// Ingreso Cantidad de Juegos
 let cantidadJuegos = parseInt(prompt(`Ingrese Cantidad de Juegos:`))
-document.write("Cantidad Juegos: " + cantidadJuegos + " | ")
+document.write("|| Cantidad Juegos: " + cantidadJuegos + " || ")
 
 for (let i = 1; i <= cantidadJuegos; i++) {
 
